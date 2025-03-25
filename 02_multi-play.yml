@@ -1,3 +1,4 @@
+#multi play playbook
 ---
 - name: update n1 servers
   hosts: n1
