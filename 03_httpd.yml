@@ -13,7 +13,7 @@
     - name: start httpd
       service:
         name: httpd
-        state: start
+        state: started
 
     - name: enable httpd
       service:
