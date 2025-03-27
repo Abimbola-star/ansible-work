@@ -32,7 +32,7 @@
       service:
         name: apache2
         state: started
-      when: amsible_distribution == "Ununtu" or ansible_distribution == "Debian"
+      when: amsible_distribution == "Ubuntu" or ansible_distribution == "Debian"
 
     - name: enable apache2
       service:
